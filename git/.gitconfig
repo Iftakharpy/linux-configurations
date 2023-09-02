@@ -1,0 +1,15 @@
+[user]
+	name = Iftakhar Husan
+	email = iftakharn19@gmail.com
+
+# The following would have been ideal working solution but doesn't work
+# [includeIf "hasconfig:remote.*.url:**/**gitlab.labranet.jamk.fi**/**"]
+
+# The following however does work to check if name contains jamk then 
+# includes the custom config need to define twice couldn't find working 
+# logical or operator for includeIf directive
+[includeIf "gitdir:**/**[jJ][aA][mM][kK]**/**"]
+	path = ~/.gitconfig-jamk-gitlab
+
+[includeIf "gitdir:**/**[jJ][aA][mM][kK]**"]
+	path = ~/.gitconfig-jamk-gitlab
