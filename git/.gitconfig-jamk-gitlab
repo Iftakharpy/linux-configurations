@@ -1,3 +1,4 @@
 [user]
 	name = Iftakhar Husan
 	email = AC5636@student.jamk.fi
+	signingkey = /home/iftakhar/.ssh/gitlab.pub
