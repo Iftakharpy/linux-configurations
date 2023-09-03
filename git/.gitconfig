@@ -1,6 +1,14 @@
 [user]
 	name = Iftakhar Husan
 	email = iftakharn19@gmail.com
+	signingkey = /home/iftakhar/.ssh/github.pub
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
+
 
 # The following would have been ideal working solution but doesn't work
 # [includeIf "hasconfig:remote.*.url:**/**gitlab.labranet.jamk.fi**/**"]
