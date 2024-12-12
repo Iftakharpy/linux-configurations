@@ -12,6 +12,7 @@ tui new-layout dhns {-horizontal regs 2 asm 3} 2 {-horizontal src 2 {status 0 cm
 tui new-layout regs_asm_src_cmd {-horizontal regs 2 asm 3 src 2 } 2 {-horizontal cmd 1 status 0} 1
 #tui new-layout bug { -horizontal regs 2 { src 1 asm 2 } } 2 status 0 cmd 1 # crushes gdb
 #tui new-layout bug { -horizontal regs 2 {src 1 asm 2} } 0  status 0 cmd 1
+#tui new-layout dhs {-horizontal src 2 asm 3 regs 2 } 2 {-horizontal {status 1 cmd 1} } 1
 
 tui layout dhs
 focus asm
